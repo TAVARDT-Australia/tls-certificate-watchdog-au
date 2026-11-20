@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-au/tls-certificate-watchdog",
+  "version": "1.0.0",
+  "description": "Automated TLS/SSL certificate monitoring, expiry alerting, and ACSC Essential Eight crypto compliance for Australia.",
+  "license": "MIT",
+  "author": "TAVARDT Australia (https://ag.tavardt.com/au/)"
+}
