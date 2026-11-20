@@ -1,47 +1,47 @@
 # TLS/SSL Certificate Watchdog | TAVARDT Australia
 
-[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/au/security-headers-check/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Australia-00C853.svg)](https://ag.tavardt.com/au/cybersecurity/)
+[![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/au/security-headers-check/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Australia-00C853.svg)](https://ag.tavardt.com/au/cybersecurity/)
 
-Automated TLS/SSL certificate monitoring, expiry alerting, and ACSC Essential Eight crypto compliance for Australian organisations.
+Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and ACSC Essential Eight compliance in Australia.
 
-Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT Australia](https://ag.tavardt.com/au/)**.
+Developed and maintained by the cybersecurity and cyber resilience division of **[TAVARDT Australia](https://ag.tavardt.com/au/)**.
 
 ---
 
-## 1. Continuous Monitoring Capabilities
+## 1. Scope of Perimeter Verification
 
-This command-line tool audits TLS certificate status, cipher suites, and expiration windows for Australian infrastructure:
+This command-line tool audits certificate lifecycles, cryptographic suites, and trust chains for Australian infrastructure:
 
-* **ACSC Crypto Alignment:** Ensures transport encryption adheres to Australian Government Information Security Manual guidelines.
-* **Expiration Watchdog:** Tracks expiration horizons to eliminate security warnings and service outages.
-* **Cipher Strength Verification:** Verifies modern TLS 1.3 ciphers and validates issuer authenticity.
-* **Zero External Dependencies:** Native Python implementation suitable for immediate CI/CD and server automation.
+* **Preventative Expiry Alert:** Calculates remaining days before certificate expiry with automated alerting thresholds.
+* **Cipher and Protocol Audit:** Verifies TLS 1.3 enforcement in alignment with ACSC Essential Eight baselines.
+* **Certificate Authority (CA) Validation:** Inspects the root issuer trust chain and Subject Alternative Names (SAN).
+* **Zero External Dependencies:** Runs entirely on Python native ssl and socket standard library modules.
 
 ---
 
 ## 2. Quick Start Guide
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Run this tool directly via Python without installing third-party packages:
 
 ```bash
-python watchdog.py exemplo.com
+python watchdog.py example.com.au
 ```
 
 ---
 
 ## 3. Online Diagnostic Tools (Australia)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audit your public infrastructure using the TAVARDT Australia diagnostic suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/au/security-headers-check/)
 * [Consent Mode v2 & Privacy Act Validator](https://tools.tavardt.com/au/consent-mode-v2-checker/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/au/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/au/exposed-files-scanner/)
-* [Full Australian Diagnostic Portal](https://tools.tavardt.com/au/)
+* [Full Australian Tools Portal](https://tools.tavardt.com/au/)
 
 ---
 
-## 4. Cryptographic Hardening & Advisory
+## 4. Technical Advisory & Remediation
 
-For ACSC Essential Eight compliance, infrastructure hardening, and cyber defence in Australia, contact **[TAVARDT Australia](https://ag.tavardt.com/au/contact/)**.
+For enterprise cryptographic auditing, ACSC Essential Eight alignment, and incident response in Australia, contact **[TAVARDT Australia](https://ag.tavardt.com/au/contact/)**.
