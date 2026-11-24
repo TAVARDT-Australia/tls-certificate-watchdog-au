@@ -1,4 +1,4 @@
-# TLS/SSL Certificate Watchdog | TAVARDT Australia
+# TLS/SSL Certificate Watchdog
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/au/security-headers-check/)
 Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and ACSC Essential Eight compliance in Australia.
@@ -43,3 +43,7 @@ Audit your public infrastructure using the TAVARDT Australia diagnostic suite:
 ## 4. Technical Advisory & Remediation
 
 For enterprise cryptographic auditing, ACSC Essential Eight alignment, and incident response in Australia, contact **TAVARDT Australia**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
