@@ -1,6 +1,9 @@
 # TLS/SSL Certificate Watchdog
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/au/security-headers-check/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and ACSC Essential Eight compliance in Australia.
 
 Developed and maintained by the cybersecurity and cyber resilience division of **TAVARDT**.
@@ -51,6 +54,11 @@ For enterprise cryptographic auditing, ACSC Essential Eight alignment, and incid
 * **Corporate Portal:** https://ag.tavardt.com/au/
 * **Diagnostic Suite:** https://tools.tavardt.com/au/
 * **Technical Contact:** https://ag.tavardt.com/au/contact/
+
+***
+
+### License
+Released under the MIT License. See [LICENSE](LICENSE) for full details.
 
 ***
 
